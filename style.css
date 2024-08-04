@@ -20,3 +20,25 @@ body {
     color: blue;
   background-color: blueviolet;
 }
+
+
+
+.first{
+  flex-shrink: 0.5;
+}
+second{
+  flex-shrink: 1;
+}
+.newlayout{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.newlayout div{
+  background-color: red;
+  height: 50px;
+  margin: 2px;
+  border: 2px solid black;
+  flex-basis: 350px;
+
+}
