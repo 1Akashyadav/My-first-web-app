@@ -2,8 +2,19 @@
 body {
     background-color: lightblue;
   }
-  h1{
-    background-color: aquamarine;
+  .red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  }
+  .green{
+    background-color: green;
+    border-radius: 200px;
+  }
+  .blue{
+    background-color: blue;
+    display: inline;
   }
   iframe{ 
     color: blue;
